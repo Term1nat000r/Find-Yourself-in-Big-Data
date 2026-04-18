@@ -1,13 +1,3 @@
-"""
-Конвертер отчёта сканера ПДн в формат result.csv (size, time, name)
-
-Использование:
-    1. Сначала запустите сканер с выводом в JSON:
-       python pd_scanner.py /path/to/DATA -f json -o scan_report.json
-    2. Затем выполните:
-       python make_result.py scan_report.json result.csv
-"""
-
 import json
 import os
 import argparse
@@ -20,7 +10,6 @@ MONTH_ABBR = [
 ]
 
 def format_time(timestamp: float) -> str:
-    """Преобразует Unix timestamp в строку вида 'sep 26 18:31'."""
     dt = datetime.fromtimestamp(timestamp)
     month = MONTH_ABBR[dt.month - 1]
     return f"{month} {dt.day:2d} {dt.hour:02d}:{dt.minute:02d}"
