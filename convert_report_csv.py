@@ -1,9 +1,3 @@
-"""
-Конвертер отчёта report_noocr.csv (из pd_scanner.py) в result.csv
-Формат входного CSV: путь,категории_ПДн,количество_находок,УЗ,формат_файла
-Выходной формат: size,time,name
-"""
-
 import csv
 import os
 from pathlib import Path
