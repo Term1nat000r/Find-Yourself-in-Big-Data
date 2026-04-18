@@ -58,8 +58,7 @@ def validate_driver_license(series: str, number: str) -> bool:
 
 patterns = {
     "ФИО": re.compile(
-        r'\b[А-ЯЁ][а-яё]+\s+[А-ЯЁ][а-яё]+\s+[А-ЯЁ][а-яё]+\b',
-        re.IGNORECASE
+        r'\b[А-ЯЁ][а-яё]+\s+[А-ЯЁ][а-яё]+\s+[А-ЯЁ][а-яё]+\b'
     ),
     "Телефон": re.compile(
         r'(?:\+7|8)[\s\-]?\(?\d{3}\)?[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}\b'
@@ -76,7 +75,8 @@ patterns = {
     ),
 
     "Паспорт РФ": re.compile(
-        r'\b\d{2}\s?\d{2}\s?\d{6}\b'
+        r'(?:паспорт|серия|passport)\s*[:\s]*\b(\d{2}\s?\d{2}\s?\d{6})\b',
+        re.IGNORECASE
     ),
     "СНИЛС": re.compile(
         r'\b\d{3}[\s\-]?\d{3}[\s\-]?\d{3}[\s\-]?\d{2}\b'
@@ -105,15 +105,15 @@ patterns = {
     ),
 
     "Биометрия": re.compile(
-        r'\b(?:биометри[яи]|отпечат[ок|ки] пальц[а|ев]|радужн[ая|ой] оболочк[а|и]|голосов[ой|ые] образ[ец|цы])\b',
+        r'\b(?:биометри[яи]|(?:отпечаток|отпечатки) пальц(?:а|ев)|радужн(?:ая|ой) оболочк[аи]|голосов(?:ой|ые) образ(?:ец|цы))\b',
         re.IGNORECASE
     ),
     "Здоровье": re.compile(
-        r'\b(?:диагноз|болезнь|заболевание|медицинск[ая|ий|ое]|поликлиника|больница|пациент|анализ|кровь|рентген|МРТ|КТ)\b',
+        r'\b(?:диагноз|болезнь|заболевание|медицинск(?:ая|ий|ое)|поликлиника|больница|пациент|анализ|кровь|рентген|МРТ|КТ)\b',
         re.IGNORECASE
     ),
     "Религия/политика": re.compile(
-        r'\b(?:православ|ислам|мусульман|католик|иудаизм|буддизм|полит[ическая|ический]|партия|выборы|голосование)\b',
+        r'\b(?:православ|ислам|мусульман|католик|иудаизм|буддизм|полит(?:ическая|ический)|партия|выборы|голосование)\b',
         re.IGNORECASE
     ),
     "Расовая/национальная принадлежность": re.compile(
@@ -143,30 +143,138 @@ CATEGORY_MAP = {
     "Расовая/национальная принадлежность": "special",
 }
 
+FIO_STOP_WORDS = {
+    # Государственные структуры и формы
+    'российская', 'федерация', 'россии', 'российской', 'федерации',
+    'федеральный', 'федерального', 'федеральное', 'федеральной',
+    'министерство', 'министерства', 'правительство', 'правительства',
+    'государственная', 'государственной', 'государственное', 'государственного',
+    'президент', 'президента', 'президиум',
+    'верховный', 'верховного', 'конституционный', 'конституционного',
+    # Нормативные акты
+    'постановление', 'постановления', 'закон', 'закона', 'указ', 'указа',
+    'распоряжение', 'распоряжения', 'приказ', 'приказа',
+    'утверждено', 'утвержден', 'утверждена', 'принято', 'введено', 'введена',
+    # Города
+    'москва', 'санкт', 'петербург', 'екатеринбург', 'новосибирск',
+    'казань', 'самара', 'нижний', 'новгород', 'красноярск', 'челябинск',
+    # Организации
+    'департамент', 'департамента', 'комитет', 'комитета',
+    'агентство', 'агентства', 'служба', 'службы',
+    'институт', 'института', 'университет', 'университета',
+    'академия', 'академии', 'центр', 'центра',
+    'общество', 'общества', 'предприятие', 'предприятия',
+    'организация', 'организации', 'учреждение', 'учреждения',
+    # Коллегиальные органы
+    'собрание', 'собрания', 'совет', 'совета', 'коллегия', 'коллегии',
+    # Образование (частые в ФГОС)
+    'образование', 'образования', 'образовательная', 'образовательной',
+    'программа', 'программы', 'стандарт', 'стандарта',
+    'направление', 'направления', 'подготовка', 'подготовки',
+    'квалификация', 'квалификации', 'компетенция', 'компетенции',
+    'дисциплина', 'дисциплины', 'обучение', 'обучения',
+    # Документооборот
+    'протокол', 'протокола', 'заседание', 'заседания',
+    'решение', 'решения', 'положение', 'положения',
+    'регламент', 'регламента', 'инструкция', 'инструкции',
+    # Прочие частые ложноположительные
+    'статья', 'статьи', 'пункт', 'пункта', 'часть', 'части',
+    'глава', 'главы', 'раздел', 'раздела', 'параграф',
+    'редакция', 'редакции', 'дополнение', 'изменение',
+}
+
+
+PERSONALIZATION_MARKERS = re.compile(
+    r'(?:пациент|пациентка|больной|больная|застрахованный|застрахованная|'
+    r'диагностирован|обследован|диагноз\s*:)',
+    re.IGNORECASE
+)
+
+BANK_CARD_CONTEXT = re.compile(
+    r'(?:карта|карты|картой|card|visa|mastercard|мир|cvv|cvc)',
+    re.IGNORECASE
+)
+
+
+def _is_valid_fio(match_str: str) -> bool:
+    tokens = match_str.split()
+    if len(tokens) < 3:
+        return False
+    for token in tokens:
+        if token.lower() in FIO_STOP_WORDS:
+            return False
+    return True
+
+
+def _has_personalization_nearby(text: str, start: int, end: int, window: int = 200) -> bool:
+    left = max(0, start - window)
+    right = min(len(text), end + window)
+    context = text[left:right]
+    if PERSONALIZATION_MARKERS.search(context):
+        return True
+    for m in patterns["ФИО"].finditer(context):
+        if _is_valid_fio(m.group()):
+            return True
+    if patterns["Дата рождения"].search(context):
+        return True
+    if patterns["СНИЛС"].search(context):
+        return True
+    return False
+
+
 def detect_pd(text: str) -> dict:
     results = {}
     for name, pattern in patterns.items():
-        matches = pattern.findall(text)
-        if matches:
-            if name == "Банковская карта":
-                valid = [m for m in matches if luhn_check(m)]
-                count = len(valid)
-            elif name == "СНИЛС":
-                valid = [m for m in matches if validate_snils(m)]
-                count = len(valid)
-            elif name == "ИНН":
-                valid = [m for m in matches if validate_inn(m, is_legal=False) or validate_inn(m, is_legal=True)]
-                count = len(valid)
-            elif name == "Паспорт РФ":
-                count = 0
-                for m in matches:
-                    parts = re.findall(r'\d+', m)
-                    if len(parts) >= 2 and validate_passport_rf(parts[0], parts[1]):
-                        count += 1
-            elif name == "Водительское удостоверение":
-                count = sum(1 for m in matches if validate_driver_license(m[:2], m[2:]))
-            else:
-                count = len(matches)
+        if name == "ФИО":
+            count = 0
+            for m in pattern.finditer(text):
+                if _is_valid_fio(m.group()):
+                    count += 1
             if count > 0:
                 results[name] = count
+        elif name in ("Здоровье", "Расовая/национальная принадлежность"):
+            count = 0
+            for m in pattern.finditer(text):
+                if _has_personalization_nearby(text, m.start(), m.end()):
+                    count += 1
+            if count > 0:
+                results[name] = count
+        elif name == "Банковская карта":
+            count = 0
+            for m in pattern.finditer(text):
+                card = m.group()
+                if not luhn_check(card):
+                    continue
+                left = max(0, m.start() - 100)
+                right = min(len(text), m.end() + 100)
+                context = text[left:right]
+                if BANK_CARD_CONTEXT.search(context):
+                    count += 1
+            if count > 0:
+                results[name] = count
+        elif name == "СНИЛС":
+            valid = [m for m in pattern.findall(text) if validate_snils(m)]
+            if valid:
+                results[name] = len(valid)
+        elif name == "ИНН":
+            valid = [m for m in pattern.findall(text) if validate_inn(m, is_legal=False) or validate_inn(m, is_legal=True)]
+            if valid:
+                results[name] = len(valid)
+        elif name == "Паспорт РФ":
+            count = 0
+            for m in pattern.finditer(text):
+                num = m.group(1)
+                parts = re.findall(r'\d+', num)
+                if len(parts) >= 2 and validate_passport_rf(parts[0], parts[1]):
+                    count += 1
+            if count > 0:
+                results[name] = count
+        elif name == "Водительское удостоверение":
+            count = sum(1 for m in pattern.findall(text) if validate_driver_license(m[:2], m[2:]))
+            if count > 0:
+                results[name] = count
+        else:
+            matches = pattern.findall(text)
+            if matches:
+                results[name] = len(matches)
     return results

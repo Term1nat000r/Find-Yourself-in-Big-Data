@@ -1,0 +1,956 @@
+путь,категории_ПДн,количество_находок,УЗ,формат_файла
+/home/termit/hackathon_dataset/ПДнDataset/HACKATHON_CASE.md,Биометрия:3,3,1,md
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/VK_Soglashenie_ob_informacionnom_vzaimodeistvii.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/VKCT_Soglashenie_ob_informacionnom_vzaimodeistvii.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/.ipynb_checkpoints/pii_scan_results-checkpoint.csv,ФИО:2; Телефон:1; Email:1; Дата рождения:27,31,4,csv
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/agreement_reg.pdf,ФИО:2; Email:1; Адрес:2,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/version-300824.pdf,ФИО:1; Email:2; Адрес:3,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/politika_konfidencialnosti.pdf,ФИО:2; Адрес:1; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/agreement_reg_extra.pdf,Email:1; Адрес:3,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/FZ 273 ob obrazovanii-rf.doc,ФИО:4; Дата рождения:166,170,3,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/capsula_instruction.pdf,Телефон:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Protokol_20.pdf,ФИО:12; Email:1; Адрес:1,14,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/rules.pdf,ФИО:47; Телефон:1; Email:4; Дата рождения:1; Адрес:1; ИНН:1,55,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Informatsionnoe-pismo-Olimpiada-SFEDU-English-25.doc,ФИО:2; Телефон:1; Email:2; Дата рождения:10; Адрес:5; ИНН:2,22,3,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/Sport24_Mediakit_2024.pdf,ФИО:11; Email:1,12,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/metod_r.pdf,ФИО:1; Телефон:1; Email:1; Дата рождения:32,35,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pamyatka.pdf,ФИО:1; Телефон:2; Email:1,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/38.04.08.pdf,Дата рождения:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/N413_17_05_2012.rtf,Дата рождения:164,164,3,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/version-090924.pdf,ФИО:2; Email:2; Дата рождения:2; Адрес:1; ИНН:9,16,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D0%A4%D0%A5%D0%94%202022%20%20%20%D0%B8%D0%B7%D0%BC%2001%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/upr_proc.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/%D0%92%D1%81%D0%B5%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%BF%D0%B8%D1%81%D1%8C_%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85.pdf,ФИО:13,13,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/AC_11082025.pdf,Дата рождения:392,392,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Life%20safety.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/isk_int.pdf,ФИО:2; Дата рождения:3; Здоровье:1,6,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Сведения о доходах проректоров директоров филиалов и зам главного бухгалтера ФГАОУ ВО ЮФУ 2021.xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Otchet_2014_rus.pdf,Дата рождения:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П73-ОД_37.05.02_Психология служ деят.pdf,Здоровье:1,1,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample_Scientific%20research%20design%20of%20urban%20environment.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/3 сентября EduNet.pdf,ФИО:6; Телефон:1; Email:2; Дата рождения:1; Адрес:1; Здоровье:1,12,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/rasp722-p_20140430.pdf,ФИО:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/522.pdf,ФИО:7; Email:1,8,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/110401_М_3_17062021.pdf,Дата рождения:25,25,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Приказ ЮФУ от 07.02.2022  N 24-ОД.pdf,Дата рождения:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/105_order_Spanish_courses.pdf,ФИО:10; Телефон:4; Email:4,18,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ingak_description.pdf,ФИО:1; Email:1; Дата рождения:2; Адрес:1,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/8. Индексация Расп РФ.pdf,Религия/политика:3,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_m_2015.xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Выписка из реестра ГА 06.05.01 06.05.02.pdf,Дата рождения:3; Адрес:1; ИНН:1,5,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П216-ОД.pdf,Email:2; Религия/политика:5,7,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П2274 АБИМ.pdf,Дата рождения:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/РУКОВОДСТВО_ПО_БРЕНДИНГУ_2025.pdf,Телефон:4; Email:5,9,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_1338-%D0%A0%20%D0%9A%D1%80%20%D1%81%D1%82%D0%BE%D0%BB%20%D0%94%D0%9D%D0%9A.pdf,ФИО:9,9,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ist_soc_rab.pdf,ФИО:3; Адрес:2,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/FCP_competitions-notice.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D0%90%D0%9C%D0%AF%D0%A2%D0%9A%D0%90%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%D0%B5%D0%B7%D0%B6%D0%B0%D1%8E%D1%89%D0%B8%D1%85%202025.pdf,Телефон:4; Email:4; Дата рождения:2; Адрес:10,20,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/11.07.2023%20%20%D0%9F229-%D0%9E%D0%94%20%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%20%D1%82%D0%BE%D1%87%D0%BA%D0%B5%20%D0%BA%D0%B8%D0%BF%D0%B5%D0%BD%D0%B8%D1%8F.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Business%20in%20Tourism%20and%20Hospitality.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/24.11.2020 - форма согласия соискателя.docx,Дата рождения:2; Адрес:1,3,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Sootv_asp_2025.pdf,ФИО:5; Дата рождения:1; Религия/политика:10,16,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Azov_conf-requirements.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Otchet_nauka_2016.pdf,ФИО:51; Дата рождения:40; Адрес:12,103,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/gender_equality_plan.pdf,Дата рождения:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/chislen0603.pdf,Телефон:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.9.6_sp.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Freedom%20of%20Speech%20and%20Academic%20Freedom%20Code%20of%20Practice%20-%20v3.4.pdf,Email:7,7,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/49PSMN519.pdf,ФИО:1; Email:19; ИНН:1,21,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Protokol_prez_N2.pdf,ФИО:82; Телефон:1; Email:1; Адрес:3,87,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%9C%D0%90%20%D0%9C%D0%9D%D0%9F%D0%9A%20.pdf,ФИО:181; Телефон:1; Email:1; Адрес:2; Здоровье:3,188,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Anexos_stud_conf_2021_ru.doc,ФИО:1,1,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/President_Grants-2018-info.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/патентов и ПЭВМ - ЮФУ.pdf,ФИО:1031; Дата рождения:599; ИНН:43; Здоровье:3; Расовая/национальная принадлежность:2,1678,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/teor_osn.pdf,ФИО:6; Адрес:1,7,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/9ld9ylp04noekda30doh1pe1qjxt7md9.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Protokol_6_06.09.2023.pdf,ФИО:77; Телефон:2; Email:2; Адрес:1; Расовая/национальная принадлежность:1,83,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pfhd_2023_01.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/IVD_2__1_Gorgorova.pdf_0704d8bae0.pdf,ФИО:3; Дата рождения:2,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%9F%D0%94%20%D0%B8%20%D0%9A%D0%9F%2015.02.10%20(2).pdf,ФИО:6; Дата рождения:26; Религия/политика:1,33,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/mash_ob.pdf,ФИО:1; Дата рождения:3; Адрес:1,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Документы партнеров/capsula_neo_instruction.pdf,ФИО:2; Телефон:1; Адрес:1,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Application-Offer-Form.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1%D0%9F211-%D1%80%20%20%D0%B0%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%20%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B2_0.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/stranoved.pdf,Адрес:1; Религия/политика:2,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/37.04.01.pdf,ФИО:1; Адрес:1; Религия/политика:1,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/obrab_inf.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/d1e7a0684a9e51c599fb223264e96189.pdf,ФИО:4; Email:1; Дата рождения:2; Адрес:2,9,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/54.04.02.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F1631_%D0%9E%D0%9F%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.pdf,Дата рождения:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/obsh.pdf,Дата рождения:1; Религия/политика:13,14,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П1438.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/bezop_komp.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/aerospace_engg_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/formulario_inscripcion_dele_2022.pdf,Email:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/VSOCH_2025.pdf,ФИО:146; Здоровье:3; Расовая/национальная принадлежность:8,157,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Инструкция по работе с информационными ресурсами.doc,ФИО:1; Email:1; Дата рождения:26,28,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/AI-SANA_2603.pdf,ФИО:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/E_brochure_08022024.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_u_2017.xls,ФИО:1,1,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ukaz Prezidenta 478_16.08.21.pdf,ФИО:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/17437679069420.pdf,Адрес:8,8,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prikaz-1928_Application2-IC_codes.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/02.04.02_rob.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/BSc_MSc_Basic_Science_brochure_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_r_2015.xls,ФИО:3,3,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0502%20%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B8%D1%80%D1%8B%20%D0%BA%D0%B0%D1%80%D1%8C%D0%B5%D1%80%D1%8B.pdf,ФИО:23; Дата рождения:1,24,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ist_isk.pdf,ФИО:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/47.04.01.pdf,ФИО:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/216e9fc932f0a2027c207d9b1bb2e0cd.pdf,Адрес:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/fk.pdf,ФИО:8; Дата рождения:5,13,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_r_2012-2014.docx,ФИО:15,15,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pravila_priema_v_bakalavriat_spetsialitet_bazov_vo_magistraturu_spets_vo_na_2025-26.pdf,ФИО:17; Дата рождения:10,27,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.10.1.pdf,ФИО:2; Дата рождения:1; Адрес:1,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Horario_Aula_Hispanica_octubre-diciembre_2020.doc,Email:2,2,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Rasporiagenie-1092-p_report-form.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/40_04_01_program_mag_2025.pdf,Дата рождения:4; Адрес:3; Религия/политика:1,8,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/samoobsled_2024.pdf,ФИО:12; Телефон:1; Дата рождения:4; СНИЛС:1,18,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0545_0.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/49.04.03.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_f_v_2014.doc,ФИО:1; Дата рождения:1,2,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Otchet_2012.pdf,ФИО:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/emir-frandt-request-for-proposal.pdf,Email:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/confl25.pdf,ФИО:2; Телефон:2; Email:2; Адрес:1,7,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_gb_2015.xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%90%D0%BD%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%90%D0%9F%D0%A6%D0%9F%D0%B8%D0%A6%D0%AD.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/HiTech_Vitoshko.pdf,Телефон:2; Email:1,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Приказ ФСТЭК России от 30.10.2018 N 193.docx,Дата рождения:16,16,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/polozhenie_o_thesis_2024.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/International%20transport%20law.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/766.pdf,Дата рождения:18,18,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample_Urban%20development.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ПП_2025_19.01.2025_итог.pdf,ФИО:26; Телефон:16; Email:3; Дата рождения:4; Адрес:4,53,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2.2.16.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.7.8.pdf,ФИО:1; Дата рождения:1; Религия/политика:7,9,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Molecular_spectrostroscopy.pdf,Email:1; Дата рождения:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Р688.pdf,ФИО:1; Email:1; Дата рождения:16; Адрес:3; ИНН:1; Банковский счёт:1,23,2,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Azov_conf-application.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%82%D1%87%D1%91%D1%82%20%D0%A2%D0%9A%20%D0%AE%D0%A4%D0%A3.pdf,ФИО:55; Дата рождения:6,61,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ukaz Prezidenta 364_15.06.15.rtf,ФИО:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9C%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F_%D0%9D%D0%90%D0%9C_%D0%B2%D0%B5%D1%81%D0%BD%D0%B0_2022.pdf,Дата рождения:21,21,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_n_2017.xls,ФИО:1,1,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Согласие участника конкурса.docx,Дата рождения:2; Адрес:1,3,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/P201-OD.pdf,Дата рождения:14,14,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/APS.docx,Email:1,1,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ry_ino.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/PP%20BSM%202025.pdf,ФИО:21; Дата рождения:16; Адрес:1; Расовая/национальная принадлежность:2,40,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ece_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prot1_17.10.2024.pdf,ФИО:1; Дата рождения:13; СНИЛС:206,220,2,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Highlights 18.pdf,Email:16,16,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Индивидуальный план работы аспиранта для набора 2022 г. (5).docx,ФИО:3,3,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%90%D1%80%D1%82%D0%B5%D0%BC%20%D0%A8%D0%B0%D0%B4%D1%80%D0%B8%D0%BD.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/IDP.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П1149_21.05.2025.pdf,Дата рождения:23; Адрес:6; ИНН:6; Банковский счёт:18,53,2,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П47-ОД_10.03.2023.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Integrated Marine Research Center.pdf,Телефон:2; Email:2,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Progress%20report%20on%20the%20implementation%20of%20the%20Excellence%20Initiative%20-%20Research%20University%20by%20TUL.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/DSU_City_innovation_Campus_Programs_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Planes2016_rus.pdf,ФИО:9,9,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/osn_geo_obr.pdf,Религия/политика:2,2,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/24.11.2020 - форма заявления на участие в конкурсе.docx,Email:1,1,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/bpharma_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.2.3.pdf,Дата рождения:2; Религия/политика:1,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_gb_2017.xls,ФИО:1,1,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/38.04.01.pdf,Религия/политика:1,1,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Pravila_priema_2025_na_sait.pdf,ФИО:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5.docx,Дата рождения:1; Адрес:1,2,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%91%D1%83%D1%85%D0%B3%D0%B0%D0%BB%D1%82%D0%B5%D1%80.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/HA17_02.tif,Дата рождения:1,1,4,tif
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_u_2015.xls,ФИО:3,3,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/FK_sport.pdf,Адрес:2; Здоровье:1,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Aula_Hispánica_vesna_2018_rus.doc,ФИО:1; Email:2,3,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_dohod_2023.pdf,ФИО:11; Телефон:1; Email:1; Дата рождения:1; ИНН:1,15,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Договор.docx,ФИО:1; Дата рождения:1; Адрес:1; ИНН:1; Банковский счёт:1,5,2,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Folleto_cursos_ruso1.pdf,Email:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20(Model-analytical%20and%20Strategic%20Research%20Methods).pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20Sociology%20of%20the%20Internet.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_95-%D1%80%20%D0%9F%D1%80%D0%B5%D1%81%D1%82%D0%B8%D0%B6%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9.pdf,ФИО:6; Адрес:1,7,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_128-%D0%A0%20%D0%97%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%A8%D0%9C%D0%91%203.0.pdf,ФИО:5; Адрес:1,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Aula_Hispanica_plano_rus_2014-2015.pdf,ФИО:11; Адрес:8,19,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2190-4286-12-49.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/SPO.docx,ФИО:4,4,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20MODERN%20Computer%20Technologies%202022.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/requisites.pdf,ФИО:4; Телефон:1; Email:1; Дата рождения:1; Адрес:5; ИНН:5; Банковский счёт:5; БИК:5,27,2,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/DSU_Main_Campus_Programs_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/37.04.02.pdf,Религия/политика:13,13,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Лицей ЮФУ_ВД_расписание_2024-2025.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/42.pdf,ФИО:6; Email:8; Дата рождения:2,16,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/44.04.01_177.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5487d8240beaf469a1a10ee370749263.pdf,Адрес:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Planes2015_rus.pdf,ФИО:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/AIC-DSU_CONTENT.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ecosystems.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0384.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Entrepreneurship%20in%20Hospitality.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prikaz 601.pdf,Дата рождения:50; Здоровье:2,52,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F1620_%D0%9F%D0%BB%D0%B0%D0%BD%20%D0%92%D0%A0%20%D0%BD%D0%B0%202021-2022%20%D1%83%D1%87.%D0%B3%D0%BE%D0%B4.pdf,ФИО:266; Дата рождения:412; Здоровье:2; Религия/политика:1; Расовая/национальная принадлежность:2,683,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/metod_prof.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/prikaz_N_1010_1_ot_20.11.2018_.pdf,Дата рождения:22,22,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ukaz Prezidenta 226.rtf,ФИО:1; Дата рождения:2,3,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Media-Kit_KG_2020.pdf,ФИО:2; Телефон:74; Адрес:34,110,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Vtoroe_informatcionnoe_pis`mo_Kongress_2025.pdf,Телефон:2; Email:1,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.2.1.pdf,Дата рождения:2; Религия/политика:1,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П156-ОД.pdf,Дата рождения:17,17,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/BAKSPEC.docx,ФИО:4,4,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/CVDrKased.pdf,Email:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample_Urban%20design%20project%204.%20Renovation%20of%20the%20urban%20environment.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ar_1.pdf,Телефон:7; Email:1; Дата рождения:1; Адрес:3,12,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Government-order_220-notice.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_546-%D1%80.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/mechanical_engg_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/KCP_mag_2025.pdf,Здоровье:2; Религия/политика:1,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/47.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Cod_etica_2023.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/processing__agreement.pdf,ФИО:2; Телефон:2; Email:1; Дата рождения:50; ИНН:1,56,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pfhd_2025_01.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/CNO_AULA_Hispanica.pdf,Email:6,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample%20(INTERNATIONAL%20STANDARDS%20FOR%20INTELLECTUAL%20-%20%D0%90%D1%80%D0%B7%D1%83%D0%BC%D0%B0%D0%BD%D1%8F%D0%BD)%20%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/c50dea3311d9c12cf6e941d47f574300.pdf,Адрес:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/EBBondarevskaia_conference-info.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prot4_17.07.2025.pdf,ФИО:1; Дата рождения:3; СНИЛС:125; Расовая/национальная принадлежность:4,133,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/plan-meropriyatij-bgtu-k-80-letiyu-osvobozhdeniya.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.5.1.pdf,ФИО:17; Адрес:6; Религия/политика:93,116,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ukaz Prezidenta 378.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20MODERN%20NUMERICAL%20METHODS%20IN%20MATHEMATICAL%20MODELING.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Instr_test_2024.pdf,Телефон:1; Email:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Protokol_04_02_2021.pdf,ФИО:51; Телефон:1; Email:1; Адрес:1,54,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/report_07112022.pdf,ФИО:9; Дата рождения:5; Адрес:1; Религия/политика:3,18,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2.1.pdf,Email:1; Дата рождения:1; Адрес:1,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus_Logical%20Argumentation%20and%20Critical%20Thinking_2022.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.12.1.pdf,Адрес:7,7,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20ASPT%20methods.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_j_2015.xls,ФИО:3,3,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Modern%20technology%20for%20improving%20the%20productivity%20of%20regional%20studies%20communications.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sport_podg_ino.pdf,Дата рождения:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Fundamentals%20of%20Tourism.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Horario_Aula_Hispanica_febrero-abril_2020.doc,Email:2; Адрес:1,3,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/03.04.02.pdf,ФИО:6,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_g_2015.xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Sobre_nosotros_2025_compressed.pdf,ФИО:5; Расовая/национальная принадлежность:2,7,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/BGP.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Telephone_Directory1.pdf,Email:38,38,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/vesna_fizfak.docx,ФИО:1,1,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Aula%20Hispanica_plano_rus_2016-po-mayo.pdf,ФИО:3; Email:2; Адрес:6,11,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/CartaInformativaCongreso2025_ru.pdf,ФИО:1; Телефон:1; Email:2; Адрес:1,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.8.3.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/social2024.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/incidents.json,Телефон:2; Email:4; Банковский счёт:22,28,2,json
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_988-%D1%80%20%D0%9E%D0%B1%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B8%20%D0%A3%D0%9A.pdf,Email:1; Дата рождения:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Planes2015_anodual_rus.pdf,ФИО:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/osn_mat_obr.pdf,ФИО:6; Адрес:2,8,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D0%A4%D0%A5%D0%94%202023%20%20%20%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,ФИО:1; Телефон:1; Дата рождения:4; ИНН:1,7,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1%D0%9F1429-%D1%80%20%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D1%8F%20%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B5%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B9.pdf,ФИО:1; Дата рождения:9,10,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/SELF_PORTRAIT_english_2025_ONLINE%20%281%29.pdf,Email:5; Дата рождения:1,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2.3.8.pdf,Дата рождения:14; Здоровье:2,16,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П47-ОД_МИМДО_03.03.2022.pdf,ФИО:1; Дата рождения:1; Адрес:1,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/otbor_k.pdf,ФИО:58; Телефон:71; Email:110,239,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/06_gorgorova.pdf,ФИО:3; Email:4; Дата рождения:10,17,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Informatsionnoe-pismo_2024.pdf,ФИО:2; Email:1; Дата рождения:1; Адрес:2,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/spisok%20finalistov-1%20(1).docx,ФИО:63; Здоровье:1,64,1,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD-%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BD%D0%B0-%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA-%D0%BA%D0%B0%D1%80%D1%82%D1%8B.docx,Телефон:3,3,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Public_Self_Disclosure_DSU.pdf,Email:10,10,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/03-5-01-005.pdf,ФИО:5; Религия/политика:2,7,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/informatika.pdf,ФИО:2; Дата рождения:2,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/f985xk95uk352rnl7d2guv812ndifv14.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2025Правила%20приёма%202025.26.pdf,ФИО:35; Дата рождения:36; Адрес:1; Расовая/национальная принадлежность:28,100,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/do-market-commentary-global-disclosure.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample_Environmental%20problems%20and%20environmental%20pollution.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Реестровая выписка ГА 25.02.25_СПО.pdf,Дата рождения:12; Адрес:4; ИНН:1,17,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/New%20managerial%20opportunities%20for%20modern%20organization.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/geo_ino.pdf,Религия/политика:2,2,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Modern Microscopy.pdf,Email:2; Дата рождения:1,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pharm_d_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sogl.docx,ФИО:4,4,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20Syllabus%20(General%20Pedagogy).pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0764.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/BSC_DS_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П122-ОД_изменения в ОС_28.04.2023.pdf,Дата рождения:38; Здоровье:1,39,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/MBA_brochure_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ghidul_Studentului_2023.pdf,Email:1; Дата рождения:3,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F320-%D0%9E%D0%94_%D0%9F%D1%80%D0%BE%D1%84%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%AE%D0%A4%D0%A3.pdf,ФИО:6; Дата рождения:1,7,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B5%D0%BD%D0%B8%D0%B5.pdf,Email:2; Дата рождения:1,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/142_152_Gorgorova.pdf,ФИО:3; Email:2; Дата рождения:9,14,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Carta_ASEM.pdf,Дата рождения:11,11,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Координаты для связи с профильными структурными подразделениями_3.pdf,ФИО:64; Телефон:37; Email:66; Адрес:14; СНИЛС:1; Здоровье:3,185,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/social2023.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Building_innovation_Vitoshko.pdf,Телефон:1; Email:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Согласие_ПДн_(map.ncpti.ru).rtf,Дата рождения:3; ИНН:1,4,3,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.1.3.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Филиал в Геленджике декларация на сайт 2016 г..xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/bsc_msc_nursing_2025.pdf,Email:1; Дата рождения:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Protokol N3 2022.pdf,ФИО:43; Телефон:2; Email:2; Адрес:1,48,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/План создания МИП.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Svedeniya o dohodah.xls,ФИО:4,4,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1%D0%9F1035-%D1%80%20HR.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/1.3.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/edvr4ufwv5zh72zrpiplz60e2rtwethf.pdf,Дата рождения:5; Адрес:4,9,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pfhd_2023_02.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/gl_VI_P120-OD_reglament_PK.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/PROGRAMMA%20FESTIVAL.pdf,ФИО:26; Дата рождения:1; Адрес:2; Здоровье:1,30,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2.4_reg_comisia_etica_r2.pdf,Email:1; Дата рождения:2,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.2.5.pdf,Дата рождения:2; Религия/политика:1,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Sootv_mag_2025.pdf,ФИО:50; Здоровье:4; Религия/политика:2,56,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/BCA_brochure_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%B4%D0%BE%D0%B3%D0%BE%D0%B2%D0%BE%D1%80_%D0%B8%D1%8E%D0%BB%D1%8C.docx,Email:1; Дата рождения:2; Адрес:1; ИНН:2; Банковский счёт:6,12,2,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus_Methodology%20of%20Social%20Sciences%20and%20Humanities_2022.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/AICTE_Mandatory_Disclosure_2024_25.pdf,Email:3; Дата рождения:13,16,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prioritet_itogi.pdf,ФИО:8; Здоровье:4,12,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prog_stud_conf_Dec_es_2024_rus.pdf,ФИО:310; Адрес:1; Здоровье:4; Религия/политика:2; Расовая/национальная принадлежность:7,324,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/QC3.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%83.docx,ФИО:1,1,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/f1m24swvehna3obtnn9xofw2bff4emsq.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/geo_inf.pdf,Дата рождения:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/bpt_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/UKS_Campus_Map_English.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Реестровая выписка л_22.08.25.pdf,ФИО:93; Email:2; Адрес:32; ИНН:1; Здоровье:1; Религия/политика:3,132,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Реестровая выписка_29.05.29025.pdf,Дата рождения:3; Адрес:1; ИНН:1,5,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Thesis_kruglii_stol.pdf,ФИО:7,7,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ПРАВИЛА%20ПОСЕЩЕНИЯ%20ООПТ%20ФЕДЕРАЛЬНОГО%20ЗНАЧЕНИЯ%20(2).pdf,Дата рождения:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prot3_11.03.2025.pdf,ФИО:2; Дата рождения:12; СНИЛС:130,144,2,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/02.04.02.pdf,ФИО:3; Адрес:2,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Azov_conf-example.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2024%20Y%C4%B1l%C4%B1%20%C4%B0dare%20Faaliyet%20Raporu.pdf,Дата рождения:148,148,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pedagogika.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Otchet_2013.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Декларация Махачкала.xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/82174ac3fa46f97441160bfa3b5fef76.pdf,Адрес:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample_Territory%20branding.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/rules_01_2025.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/MSC_DS_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/mpharma_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Aula_Hispanica_rus_2015.pdf,ФИО:4; Адрес:6,10,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Politika-PDN.pdf,Дата рождения:2; Адрес:3,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П247.pdf,Дата рождения:9; Адрес:1; ИНН:1,11,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/posih.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/07.04.02.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/CT_RB_2025.pdf,ФИО:6; Расовая/национальная принадлежность:2,8,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/6b588aa921ec0008657cb728cfce508d.pdf,Адрес:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_712-%D1%80%20%D0%BE%D0%B1%D1%89%D0%B5%D0%B5%20%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%90%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D0%B8.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prot2_20.02.2025.pdf,ФИО:2; Дата рождения:14; СНИЛС:190,206,2,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/66n.pdf,Дата рождения:16,16,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/доп. об изменении цены_2ред.doc,Email:1; Дата рождения:2; Адрес:1; ИНН:1; Банковский счёт:1; БИК:1,7,2,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prikaz-1846_Application1-Report.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/41.04.05.pdf,ФИО:6; Религия/политика:4; Расовая/национальная принадлежность:1,11,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%98%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B2%20%D0%A3%D1%81%D1%82%D0%B0%D0%B2%20%D0%BE%D1%82%2024%20%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F%202024.pdf,Дата рождения:15,15,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_g_2017.xls,ФИО:1,1,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/51.04.01.pdf,ФИО:2; Адрес:1; Религия/политика:3,6,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/44.04.01_sov_obr.pdf,ФИО:1; Дата рождения:2,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/protokol_25.pdf,ФИО:16; Телефон:1; Email:1; Адрес:1,19,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/m_lit.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/UGC-Proforma.pdf,Email:5; Дата рождения:18,23,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Информация о результатах приема 2024.pdf,Религия/политика:1,1,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/43.04.01_programm_mag_2025.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/upr_izm.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Theory%20and%20methodology%20of%20research%20and%20teaching%20in%20hospitality%20industry.pdf,Email:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/mtech_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus_Soviet%20Science%20and%20Science%20in%20Modern%20Russia_2022.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/mc201308.pdf,Email:23; Дата рождения:16; Здоровье:1,40,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_f_m_2014.docx,ФИО:6; Расовая/национальная принадлежность:3,9,1,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Реестр экскурсоводов 2024_ 02.12.2024.pdf,ФИО:3; Телефон:39; Email:29; Дата рождения:35; Адрес:2; Расовая/национальная принадлежность:1,109,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/SoE_Brochure_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/fis_podg_ino.pdf,Дата рождения:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/rasp1426-p_20140814.pdf,ФИО:1; Дата рождения:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Tourism%20development.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.2.4.pdf,Дата рождения:2; Религия/политика:1,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus_Culture%20and%20Philosophy%20of%20Ancient%20Greece%20in%20Russian%20studies%20of%20Classics_2022.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pfhd_2024.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pravila-vnutrennego-trudovogo-rasporyadka-bgtu.pdf,ФИО:5; Дата рождения:4,9,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/39.04.02.pdf,ФИО:2; Религия/политика:2,4,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/07.04.01.pdf,Адрес:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/rasp2190-p_20121126.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D0%A3%D0%91%D0%9B%D0%98%D0%A7%D0%9D%D0%AB%D0%99%20%D0%9E%D0%A2%D0%A7%D0%81%D0%A2%20%D0%A2%D0%9A%20%D0%AE%D0%A4%D0%A3%202020_0.pdf,ФИО:10; Телефон:4; Email:1; Дата рождения:8; Адрес:1,24,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П71-ОД_37.04.01 Психология.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2.2.14.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/44.04.01_spanish.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/mc201109.pdf,Email:12; Дата рождения:21,33,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B_%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.pdf,ФИО:1; Адрес:12,13,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/besp_s.pdf,Дата рождения:1; Адрес:2,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_f_n_2014.doc,ФИО:1,1,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_k_2015.xls,ФИО:1; Адрес:1,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/prikaz_N_675_ot_30.08.2018_.pdf,Дата рождения:26,26,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/dsu-symposium-2024.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ekol_prirod.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/tehn_int.pdf,ФИО:1; Дата рождения:3,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pfhd_2024_02.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/u_konsor.doc,ФИО:1; Email:41; Адрес:6,48,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D0%9F_2025_19.01.2025_%D0%B8%D1%82%D0%BE%D0%B31.pdf,ФИО:26; Телефон:16; Email:3; Дата рождения:4; Адрес:4,53,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prof.communication.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/KCP_asp_2025.pdf,Религия/политика:5,5,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Лицей ЮФУ_ПОЛОЖЕНИЕ о ВД.pdf,Дата рождения:7,7,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/gk6wsflsno7xkvnynehy33ugy7n098ue.pdf,Адрес:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Cutting-edge%20management%20in%20hotels%20and%20hospitality%20enterprises.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/TsKP_Biotekhnologia_biomeditsina_i_ekologicheskiy_monitoring_Babeshko.pdf,Телефон:1; Email:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/45.04.01_komm.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/41.04.04.pdf,Религия/политика:43,43,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Перечень документов.docx,ФИО:1; Телефон:2; Email:1; Адрес:1,5,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Call-for-papers_2024.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/السيرة الذاتية د. صبحي شرف عميد الكلية 13-3 - Copy.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sred_zp_adm_2017.pdf,ФИО:11,11,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample_Key%20Concepts%20in%20Urban%20and%20Cultural%20Studies.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prikaz-1846_Application2-Act.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/cpgz2j07avd690b8sv0s21rxpuypsq9t.pdf,Дата рождения:7; Адрес:4,11,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_127-%D1%80%20%D0%90%D1%81%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D1%86%D0%B8%D1%8F.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/fb66cb01477a968bfe786611fb0eea9b.pdf,Адрес:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Порядок проведения.docx,Email:1; Дата рождения:1,2,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/protokol.pdf,ФИО:33; Телефон:1; Email:1; Дата рождения:1,36,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/MAG.docx,ФИО:4,4,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20Syllabus%20(Vocational%20Training%20Technologies).pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D1%81%D1%84%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/goslicense.pdf,ФИО:5; Дата рождения:3; Адрес:4,12,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0386.%20%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%20%D0%B2%20%D0%BC%D0%B8%D1%80%D0%B5%20%D0%98%D0%98.pdf,ФИО:11,11,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus_Nedin.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_f_k_2014.docx,ФИО:2; Расовая/национальная принадлежность:1,3,1,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Anant-Ram-UGC.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/soglasie_leadplan.pdf,Email:3; Дата рождения:5; Адрес:2; ИНН:2,12,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Bid_Magistracy.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D0%A4%D0%A5%D0%94%202022%20%20%20%D0%B8%D0%B7%D0%BC%2002%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/The_SRC.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Catalogue_of_UNG_Equipment_and_Expertise_for_External_users.pdf,Email:87,87,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Sred_ZPL_Adm_2016.pdf,ФИО:11; Дата рождения:22,33,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/17_av1-202252.pdf,ФИО:2; Email:2; Дата рождения:8; Адрес:6,18,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/1C_Science-pattern.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/spisok_shablon.docx,ФИО:2,2,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus_Religions%20%20.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Главный бухгалтер- Балашова ТН.xls,ФИО:1,1,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pp-bsm.pdf,ФИО:14; Дата рождения:11; Здоровье:1,26,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample_Urban%20design%20project%205.%20Designing%20an%20environment%20based%20on%20the%20concept%20of%20identity.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/24n.pdf,Дата рождения:18,18,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Russian_Cultural_Studies.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/osn_soc_ped.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_f_g_2014.docx,ФИО:15,15,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ecology%20of%20the%20city.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.3.5.pdf,Религия/политика:1,1,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Aula_Hispánica_osen_2017.doc,ФИО:2; Email:2; Адрес:5,9,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/SFedU_.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П245-ОД Регламент проведения выборов заведующего кафедрой.pdf,Email:2; Религия/политика:10,12,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/lit_ino.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Area%20studies%20and%20tourist%20destinations.pdf,Телефон:1; Email:2,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.2.4_org.pdf,Дата рождения:17,17,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/44.04.01_ist.pdf,ФИО:4; Дата рождения:2; Религия/политика:7,13,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/GenerationS-info.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ConfPABCProgram_2023.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_f_j_2014.xls,ФИО:1,1,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/rasp_dop_mag.pdf,ФИО:1; Дата рождения:73,74,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/osn_serv.pdf,ФИО:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/e341c346955f24a09fba0a84d37a870a.pdf,Адрес:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sport_sover.pdf,ФИО:6; Дата рождения:5,11,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Otchet%202016.pdf,ФИО:22; Телефон:2; Дата рождения:7,31,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/gl_VII_exam_P120-OD_reglament_PK.pdf,Дата рождения:1; Религия/политика:1,2,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Главный бухгалтер сведения в рамках декларационной кампании.xls,ФИО:3,3,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ergo.pdf,ФИО:2; Адрес:1,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_r_2017.xls,ФИО:1,1,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/BCom_Brochure.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ombadsuperson.pdf,Email:2; Дата рождения:9,11,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Сведения о доходах проректоров директоров филиалов и зам. главного бухгалтера ФГАОУ ВО ЮФУ 2020.xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2025-_.pdf,ФИО:1; Телефон:2,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Spisok_indiv_dostig.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ID_2025.pdf,ФИО:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Otchet_2011.pdf,ФИО:1; Расовая/национальная принадлежность:1,2,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/03.04.03.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pfhd_2024_01.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2.3.6.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D0%A4%D0%A5%D0%94%202022%20%20%20%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D1%81%20%D0%BE%D1%82%D1%82%D0%B8%D1%81%D0%BA%D0%BE%D0%BC.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ipa2014%20(1).docx,ФИО:1,1,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П1352 О стоимости в 2022_23гг 2х и последующих курсов.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pfhd_2025_02.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Protokol_0.pdf,ФИО:16; Телефон:1; Email:1; Адрес:1,19,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20ADVANCED%20PROBLEMS%20OF%20MATHEMATICAL%20PHYSICS.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Planes_Aula_Hispánica_2017_rus_vesna.doc,Email:2; Адрес:4,6,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/teacher_instruction_new.pdf,Телефон:1; Email:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/4a2be25626609e594edc147261ef747d.pdf,Адрес:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/user_registration_in_EBS_Lan.docx,Email:2,2,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/it_resh.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Pravila_priema_2025_v_SGUGiT_Bakalavriat_Specialitet.pdf,ФИО:10; Дата рождения:14; Расовая/национальная принадлежность:9,33,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Postanovlenie Pravitelstva N 568.pdf,Дата рождения:17,17,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/izveshenie-015.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_1532-%D1%80.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/osn_turism.pdf,Религия/политика:1,1,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/KD_SPA_2023.pdf,ФИО:3; Телефон:2; Email:1; Дата рождения:4; Адрес:2,12,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ovsepyan%20Course%20syllabus.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0613%20%D0%BF%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D0%B5%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B9.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Public Self Disclosure.pdf,Email:9,9,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample%20(International%20standards%20for%20legal%20-%20%D0%90%D1%80%D0%B7%D1%83%D0%BC%D0%B0%D0%BD%D1%8F%D0%BD).pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2n8uitfe0x.pdf,ФИО:8,8,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ВыпискаТемы-ВКР-ИНоЗ_2025-выпуска.pdf,ФИО:1; Адрес:1; Религия/политика:1,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/18n.pdf,Дата рождения:12,12,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F112-%D0%9E%D0%94_%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%B2%D0%BE%D1%81%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F.pdf,ФИО:4; Дата рождения:14,18,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/DGTU-conference-programm.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prikaz-1928_Application1-Report_form.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_153-%D0%A0.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/1.5.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F_%D0%9C%D0%A4%D0%A6.pdf,Телефон:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/1.1.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Structural_division_Report_Form.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Management%20advances%20in%20hospitality.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/politika-obrabotki-dannyh-tassru.docx,Email:1; Дата рождения:45,46,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus_Semiotic%20Studies%20in%20Russia%20and%20Development%20of%20the%20Humanities%20in%20Europe_2022.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/P982.pdf,ФИО:4; Расовая/национальная принадлежность:1,5,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Aula_Hispánica_osen_2018_rus.doc,Email:2; Адрес:2,4,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Rasporiagenie-1129-p_Application-sample.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prikaz-1845_Application1-Report.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/google_terms_of_service_nl_eu.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/1.2.2.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/zayv_shablon.docx,ФИО:1,1,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%94%D0%BB%D1%8F%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%D0%A1%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%B9%20%D0%B1%D0%B0%D0%BB%D0%BB%20%D0%B8%20%D0%95%D0%93%D0%AD%202021_22.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/gl_V_exam_P120-OD_reglament_PK.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.2.6.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/CartaCercetatoruluiCodul-de-Conduita.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/45.04.01_tpimk.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/UGC-Public-Self-Disclosure-document.pdf,Email:12; ИНН:1,13,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/03.05.2024%20%20%D0%A0%D0%90%D0%A1_438-%D1%80-1_%205-%D0%BB%D0%B5%D1%82%D0%B8%D0%B5%20%D0%A2%D0%BE%D1%87%D0%BA%D0%B8%20%D0%BA%D0%B8%D0%BF%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%AE%D0%A4%D0%A3.pdf,ФИО:1; Дата рождения:2,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pr10_15092012.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/83124a_7c666ad59fdd470f83e349daad57df65.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.8.1.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/wpm5skhpgcr5ncwf6dwz92dutt9ucc13.pdf,ФИО:19; Здоровье:1,20,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/emir-frandt-disclosure.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prilogenie_Structural_division-report_form.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Согласие законного представителя.docx,Дата рождения:2; Адрес:1,3,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/prikaz_N_1022_ot_21.11.2018_.pdf,Дата рождения:14,14,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_303-%D1%80.pdf,Дата рождения:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/tehn_int_d.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20Syllabus%20(Preparation%20of%20Scientific%20Publications).pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Politika_privatnosti_UB.pdf,ФИО:1; Email:3,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2025.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sostav_gr.xls,ФИО:124; Телефон:54; Email:261; Здоровье:10,449,1,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.8.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2190-4286-12-49-S1.pdf,Телефон:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.7.2.pdf,ФИО:1; Дата рождения:1; Религия/политика:7,9,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/v-profsoyuz-rabotnika-yufu2024.doc,ФИО:2; Дата рождения:2; Адрес:1,5,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/BRADBOOK%202013-V13.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2.3.1_t.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/protokol_21.pdf,ФИО:19; Телефон:1; Email:1; Адрес:1,22,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/27.04.06.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/BBA_Brochure_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/eko_geo.pdf,ФИО:2; Религия/политика:6,8,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_419-%D1%80%20%D0%B4%D0%B5%D0%BD%D1%8C%20%D0%B2%D1%8B%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D0%B0.pdf,ФИО:22; Email:1,23,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/FZ 273.rtf,Дата рождения:69,69,3,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Декларация 2016г Новошахтинск.xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/44.04.04.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.7.1.pdf,ФИО:1; Дата рождения:1; Религия/политика:7,9,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/izveshenie_014.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Notification & Invitation - 11th Convocation of Manipal University Jaipur.pdf,Email:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20Syllabus%20(Pedagogical%20Theory%20and%20Conceptions).pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/KD_013.pdf,Дата рождения:2; Адрес:3,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Raport_comisia_etica.pdf,Дата рождения:23,23,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Horario_Aula_Hispánica_marzo-junio-2021.docx,ФИО:1; Email:3; Расовая/национальная принадлежность:1,5,1,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/49.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Регламент 10-ОД.pdf,Дата рождения:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/1.6.pdf,Религия/политика:1,1,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/mpt_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.5.2.pdf,ФИО:5; Адрес:4; Религия/политика:120,129,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5-2-progDN.doc,Телефон:2; Дата рождения:16,18,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Excursion%20business.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/program.pdf,ФИО:5; Адрес:2; Биометрия:2,9,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/VUZUFO.doc,ФИО:28,28,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20Mathematical%20models%20in%20biology.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_f_u_2014.docx,ФИО:3,3,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%82%D1%87%D1%91%D1%82%202021.pdf,ФИО:49; Дата рождения:8,57,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/01.04.02.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ped_doshk.pdf,Дата рождения:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Программа VIII  научного семинара Лаборатории экспериментальной лингвистики АГУ  Клиническая лингвистика.docx,ФИО:3,3,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/AICTE_2025.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/zayavlenie_kursi_2019.docx,ФИО:1; Дата рождения:1,2,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Aula_Hispanica_vesna_2018.pdf,Email:2; Адрес:4,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ukaz Prezidenta 147_01.04.16.doc,ФИО:1,1,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/01.04.00.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%92%D0%B5%D0%B4%D1%83%D1%89%D0%B8%D0%B9%20%D0%B1%D1%83%D1%85%D0%B3%D0%B0%D0%BB%D1%82%D0%B5%D1%80%20(%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA%20%D0%9D%D0%94%D0%A1).pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Декларация Железноводск2016.xls,ФИО:3,3,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/11.04.02.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/сайт_Наука_Микросистемная техника и интегральная сенсорика.pdf,Email:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Spanish%20course%20B.pdf,ФИО:11; Дата рождения:66; Расовая/национальная принадлежность:1,78,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/sved_o_d_n_2015.xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Pravila_priema_bac_spec_2025.pdf,ФИО:6; Дата рождения:7; Адрес:1,14,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/mc201205.pdf,Телефон:1; Email:11; Дата рождения:11,23,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/MCA_brochure_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/accreditation.pdf,Дата рождения:3; Адрес:2; ИНН:1,6,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Tesis_kruglii_stol_1.pdf,ФИО:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/izveshenie_013.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/geo.pdf,Религия/политика:2,2,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/spd.docx,Дата рождения:84; Адрес:60,144,3,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/SoL_Brochure.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/KD_014_rus.pdf,Дата рождения:2; Адрес:3,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/63_ffa6_7.Gizlilik%20ve%20%C3%87erez%20Politikas%C4%B1_4064465.docx,Email:3,3,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_143-%D1%80.pdf,ФИО:1; Дата рождения:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Spanish%20course%20A.pdf,ФИО:13; Дата рождения:66; Адрес:2; Расовая/национальная принадлежность:1,82,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.7.7.pdf,ФИО:1; Дата рождения:1; Религия/политика:10,12,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Protokol_1.pdf,ФИО:8; Телефон:1; Email:1; Адрес:1; Здоровье:2,13,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Announcement-on-the-Opening-Day-of-the-INEP-SFU-on-March-30-2024.pdf,Телефон:1; Адрес:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_146-%D1%80.pdf,ФИО:1; Email:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/formo.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%90%D0%A1_766-%D1%80.pdf,Адрес:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5-05-20_US-59_27.12.2024.pdf,ФИО:12; Дата рождения:61; Расовая/национальная принадлежность:2,75,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/51n.pdf,Дата рождения:6,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/DSU_Research_Ethics_Policy_2021.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Bid_Bachelor-Specialist.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Otchet_mezhdunarodnaya_deyatelnost_2016.pdf,ФИО:61; Email:32; Дата рождения:46; Расовая/национальная принадлежность:1,140,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/46.04.01.pdf,ФИО:6; Дата рождения:1; Здоровье:1; Религия/политика:9,17,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ayd%C4%B1nlatma%20metni%20-%20Copy%202.pdf,Email:4; Дата рождения:9,13,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Ранжированные списки (по итогам апелляций).pdf,ФИО:7,7,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П114-ОД.pdf,ФИО:2; Религия/политика:1,3,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/How_to_get_enrolled_2025.pdf,ФИО:2; Дата рождения:24,26,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Nanotechnologies.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/pfhd_2025.pdf,Телефон:1; Дата рождения:2; ИНН:1,4,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/P142_22.05.2023.pdf,Дата рождения:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9%20%D0%BE%D1%82%D1%87%D1%91%D1%82%202023.pdf,ФИО:2; Дата рождения:1,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/6.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Planes_Aula_Hispánica_2016_rus_osen.doc,Email:2,2,4,doc
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/rasp504_20130930.pdf,Дата рождения:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5fqhsxirzo8b3s7xsukssg8sbsz05b38.pdf,ФИО:2; Email:1; Дата рождения:7; Религия/политика:1,11,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%BE%D1%82%D1%87%D1%91%D1%82_%D0%A2%D0%9A_%D0%AE%D0%A4%D0%A3_2024.pdf,ФИО:45; Дата рождения:8,53,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/matematika.pdf,Адрес:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/5.1.4.pdf,Дата рождения:1,1,4,pdf
+"/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Приказ ФСТЭК России от 03_05.2023 N 74  Об утверждении требований оформлению заявления о предоставлении лицензии, разрешения.docx",ФИО:4; Email:2; Дата рождения:4,10,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/p805_2021.pdf,Дата рождения:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Prikaz-1845_Application2-Act.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Errand_RFFI-form-v2.rtf,Email:1,1,4,rtf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20sample_Ecology%20of%20the%20city.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ni_grant.pdf,ФИО:4; Дата рождения:2,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/1.4.pdf,ФИО:2; Адрес:9; Здоровье:2,13,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/RSOCH_2025.pdf,ФИО:20; Здоровье:2; Расовая/национальная принадлежность:1,23,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ist_arh.pdf,ФИО:16; Адрес:3,19,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/ASP.docx,ФИО:4,4,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/price-2025.pdf,ФИО:3; Телефон:2; Email:1,6,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/П1888-2.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/19n.pdf,Дата рождения:4,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/43.04.02.pdf,Дата рождения:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0953.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/LLM_brochure_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Structure_20190114.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/41.04.05_International_Communication.pdf,Религия/политика:1,1,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/physical%20Culture%20and%20sport.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Декларация Волгодонск 2016г..xls,ФИО:5,5,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/15.04.06.pdf,ФИО:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/49.03.02.pdf,ФИО:6; Дата рождения:2,8,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Aula_Hispánica_osen_2019_rus.pdf,ФИО:3; Email:2; Адрес:4; Расовая/национальная принадлежность:1,10,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/rasp167H_20130426.pdf,Дата рождения:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Декларация Учкекен 2016г.xls,ФИО:2,2,4,xls
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/polozhenie_econom.pdf,Дата рождения:1; Религия/политика:1,2,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/Course%20syllabus%20%20MATHEMATICAL%20MODELS%20OF%20PROCESS%20AND%20SYSTEMS.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Логистика/stores.csv,ФИО:2,2,4,csv
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/umn_gor.pdf,Адрес:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/2025-2.pdf,ФИО:4; Телефон:3; Email:1; Адрес:1; ИНН:1,10,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Логистика/sample.md,Адрес:2,2,4,md
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Логистика/customers.csv,ФИО:4181; Здоровье:2; Расовая/национальная принадлежность:1,4184,1,csv
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/allied_health_sciences_2025.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/google_terms_of_service_en_eu.pdf,Email:2,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_456.html,ФИО:10; Дата рождения:3; Здоровье:1; Религия/политика:1,15,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_427.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_406.html,ФИО:47,47,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_431.html,Адрес:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_368.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_95.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/%D0%A0%D0%B0%D0%B7%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%B2%20%D0%B2%20%D0%97%D0%9D%D0%91%20%D0%AE%D0%A4%D0%A3%20(%D0%B0%20%D1%82%D0%B0%D0%BA%D0%B6%D0%B5%20%D0%B2%20%D0%A0%D0%98%D0%9D%D0%A6).pdf,Телефон:3; Email:1,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_415.html,ФИО:1; Религия/политика:1,2,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_224.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_220.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/4b708f12-9518-45cd-bac0-7b3ae2b4e78e.pdf,ФИО:5,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_307.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_465.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_217.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_337.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Логистика/logistics.csv,Телефон:1; Адрес:7724,7725,3,csv
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_294.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/PravilaPriema_2025_VO_izm_24.01.2025.pdf,ФИО:40; Дата рождения:6; Адрес:2; Расовая/национальная принадлежность:2,50,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_272.html,ФИО:25; Здоровье:1,26,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_119.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_390.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Прочее/22nssvm5rk9x2ss9h33xq5h9ckbae1gd.pdf,ФИО:7; Email:1; Дата рождения:5; Религия/политика:1,14,1,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_309.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_363.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_401.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_15.html,Email:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_347.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_357.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_203.html,ФИО:4,4,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_317.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_377.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_101.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_53.html,Email:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_399.html,ФИО:6,6,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_323.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_393.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_346.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_372.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_482.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_459.html,ФИО:7,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_233.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_69.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_425.html,ФИО:5; Здоровье:2,7,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_381.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_221.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_320.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_422.html,ФИО:29; Здоровье:1,30,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_394.html,ФИО:26; Здоровье:1,27,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_464.html,ФИО:6,6,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_402.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_448.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_411.html,ФИО:5,5,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_486.html,ФИО:11; Дата рождения:4,15,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_457.html,ФИО:5,5,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_266.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_106.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_451.html,ФИО:6,6,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_170.html,Дата рождения:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_306.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_311.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_159.html,ФИО:5,5,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_54.html,ФИО:2; Религия/политика:1,3,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_227.html,Адрес:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_437.html,ФИО:7,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_473.html,ФИО:7,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_115.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_102.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_454.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_117.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_40.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_57.html,Email:1; Дата рождения:1; Здоровье:1,3,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_359.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_362.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_468.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_169.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_329.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_474.html,ФИО:3,3,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_364.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_286.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_327.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_107.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_386.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_441.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_186.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_35.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_109.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_308.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_480.html,ФИО:7; Здоровье:1,8,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_312.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_301.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_336.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_458.html,ФИО:2; Дата рождения:1,3,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_349.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_479.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_325.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_443.html,ФИО:1; Здоровье:11,12,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_453.html,ФИО:12; Адрес:2; Здоровье:1,15,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_278.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_314.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_118.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_51.html,ФИО:4,4,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_450.html,ФИО:3,3,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_432.html,ФИО:8; Здоровье:1,9,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_290.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_236.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_105.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_423.html,ФИО:7; Здоровье:1,8,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_375.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_435.html,ФИО:8; Здоровье:1,9,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_335.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_485.html,ФИО:4,4,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_467.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_112.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_304.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_378.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_367.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_176.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_444.html,ФИО:7,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_403.html,ФИО:7,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_288.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_230.html,ФИО:3,3,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_38.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_282.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_345.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_426.html,Здоровье:2,2,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_410.html,ФИО:7,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_355.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_279.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_460.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_316.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_331.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_388.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_110.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_319.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_283.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_315.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_395.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_113.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_313.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_287.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_382.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_46.html,ФИО:10,10,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_333.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_412.html,ФИО:6,6,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_481.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_72.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_114.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_298.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_353.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_384.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_418.html,ФИО:6; Здоровье:1,7,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_430.html,ФИО:6; Адрес:1; Здоровье:1,8,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_4.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_300.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_476.html,ФИО:7; Здоровье:1,8,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_348.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_455.html,ФИО:5,5,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_472.html,ФИО:6; Религия/политика:1,7,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_478.html,ФИО:5,5,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_442.html,ФИО:6; Здоровье:13,19,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_49.html,Религия/политика:1,1,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_379.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_380.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_205.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_297.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_434.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_292.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_429.html,ФИО:45,45,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_296.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_409.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_452.html,ФИО:3,3,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_424.html,ФИО:14; Расовая/национальная принадлежность:2,16,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_168.html,ФИО:29; Адрес:1,30,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_414.html,ФИО:6,6,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_299.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_463.html,ФИО:212; Религия/политика:3; Расовая/национальная принадлежность:1,216,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_470.html,ФИО:4,4,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_376.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_340.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_289.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_433.html,ФИО:9; Расовая/национальная принадлежность:1,10,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_254.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_37.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_475.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_32.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_421.html,ФИО:5; Здоровье:1,6,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_30.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_413.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_466.html,ФИО:7,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_120.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_417.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_342.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_324.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_31.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_44.html,ФИО:3; Дата рождения:1,4,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_383.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_339.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_462.html,ФИО:5,5,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_234.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_396.html,ФИО:5; Здоровье:1,6,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_416.html,ФИО:7; Здоровье:1,8,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_483.html,ФИО:6; Здоровье:1,7,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_360.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_407.html,ФИО:6; Здоровье:1,7,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_392.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_303.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_39.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_56.html,Дата рождения:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_477.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_338.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_281.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_469.html,ФИО:9,9,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_461.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_373.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_369.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_354.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_328.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_471.html,ФИО:6,6,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_111.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_344.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_285.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_3.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_295.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_358.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_385.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_108.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_330.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_449.html,ФИО:7; Здоровье:1,8,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_436.html,Телефон:1; Email:1,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_160.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_366.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_33.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_302.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/2759107_600.png,ФИО:1,1,4,png
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_321.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_238.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_387.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_2.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_374.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_284.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_438.html,ФИО:18,18,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_318.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_445.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_222.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_350.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_260.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_343.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_332.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_172.html,ФИО:5; Расовая/национальная принадлежность:1,6,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_334.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_305.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_371.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_365.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_1.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_322.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_428.html,ФИО:7,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_103.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_34.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_104.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_116.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_446.html,ФИО:6; Адрес:1,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_50.html,Email:5,5,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_293.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_356.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_370.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_215.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_361.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_280.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_352.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_207.html,ФИО:7,7,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_400.html,ФИО:5,5,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_291.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_36.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_197.html,ФИО:7; Телефон:1,8,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_310.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_389.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_420.html,ФИО:2,2,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_398.html,ФИО:4,4,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_391.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_326.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_341.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_55.html,ФИО:3; Религия/политика:1,4,1,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_351.html,ФИО:1,1,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/page_405.html,ФИО:6,6,4,html
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/2749851_600.jpg,ФИО:1,1,4,jpg
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/price-list.pdf,ФИО:1; Телефон:1; Email:1; Дата рождения:1,4,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/%D0%93%D0%9E%D0%A1%D0%A2%20%D0%A0%20%D0%A0%D0%B5%D0%B4%D0%BA%D0%BE%D0%B7%D0%B5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B.%20%D0%A1%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C.%2018-04-22.docx,ФИО:5; Адрес:1,6,4,docx
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/Privacy_policy_upd.pdf,Email:1; Дата рождения:1; Адрес:3; ИНН:3,8,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/Paulzovatelskoe_soglashenie_PAOSPB.pdf,Email:1; Дата рождения:1,2,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/mcs2025-rare-earths.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/rbc.pdf,Email:1; Дата рождения:4,5,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/subscribe_rules.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/Terms_of_service_upd.pdf,ФИО:1; Email:2; Дата рождения:1; Адрес:2; ИНН:2,8,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/preprint-frn-2023-critical-materials-list.pdf,Email:1,1,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/akt_priema_peredachi_rabochego_mesta.txt,ФИО:2; Телефон:1; Дата рождения:3; Адрес:2,8,4,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/soglasie_na_obrabotku_pd.txt,ФИО:1; Телефон:1; Email:1; Дата рождения:4; Адрес:1,8,4,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/zayavka_na_propusk_v_zhk.txt,ФИО:2; Телефон:2; Дата рождения:1; Адрес:1,6,4,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/doverennost_na_poluchenie_posylki.txt,ФИО:2; Телефон:1; Дата рождения:6,9,4,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/raspiska_poluchenie_noutbuka.txt,ФИО:1; Телефон:1; Дата рождения:3; Адрес:1,6,4,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/zayavka_kompensaciya_interneta.txt,ФИО:2; Телефон:1; Email:1; Дата рождения:1; Адрес:1; Банковский счёт:2; БИК:1,9,2,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/servisnaya_zayavka_vyezd_inzhenera.txt,ФИО:2; Телефон:2; Email:1; Дата рождения:2; Адрес:1,8,4,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/anketa_dms.txt,ФИО:1; Телефон:2; Email:2; Дата рождения:3; Здоровье:1,9,1,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/zayavlenie_dostavka_oborudovaniya_domoi.txt,ФИО:2; Телефон:1; Email:1; Дата рождения:1; Адрес:1,6,4,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Employes/perepiska_email_dostavka_kresla.txt,ФИО:2; Телефон:2; Email:5; Адрес:2,11,4,txt
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Billing/full/stores.csv,ФИО:2,2,4,csv
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/pril1_14112652.pdf,ФИО:3,3,4,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Billing/full/customers.csv,ФИО:4181; Здоровье:2; Расовая/национальная принадлежность:1,4184,1,csv
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Billing/full/sample.md,Адрес:2,2,4,md
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Billing/company.parquet,Телефон:9; Email:11459; ИНН:707,12175,2,parquet
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Billing/subscribers.csv,Телефон:107; ИНН:2,109,3,csv
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/Сайты/Доки/20240306_fin_result_2023.pdf,СНИЛС:1,1,3,pdf
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Billing/full/logistics.csv,Телефон:1; Адрес:7724,7725,3,csv
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Billing/client.parquet,Телефон:107; Email:96208; ИНН:2,96317,3,parquet
+/home/termit/hackathon_dataset/ПДнDataset/share/Архив сканы/b/zzb82c00/2078772581.tif,ИНН:1,1,3,tif
+/home/termit/hackathon_dataset/ПДнDataset/share/Выгрузки/дочерние предприятия/Billing/physical.parquet,Телефон:98; Email:84749; ИНН:4269; БИК:436,89552,2,parquet
+/home/termit/hackathon_dataset/ПДнDataset/share/Архив сканы/z/zzz35c00/2083513848.tif,ИНН:1,1,3,tif
+/home/termit/hackathon_dataset/ПДнDataset/share/Архив сканы/b/zzb06d00/50491022-1023.tif,ФИО:1,1,4,tif
+/home/termit/hackathon_dataset/ПДнDataset/share/Архив сканы/z/zzz57d00/2029289405.tif,Телефон:1,1,4,tif
+/home/termit/hackathon_dataset/ПДнDataset/share/Архив сканы/z/zzz97c00/527802957+-2958.tif,Телефон:2,2,4,tif
+/home/termit/hackathon_dataset/ПДнDataset/share/Архив сканы/z/zzz62e00/2057077308.tif,ФИО:1,1,4,tif
+/home/termit/hackathon_dataset/ПДнDataset/share/Архив сканы/a/zza94a00/2063196920.tif,ИНН:1,1,3,tif

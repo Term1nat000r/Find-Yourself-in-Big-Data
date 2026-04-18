@@ -210,8 +210,8 @@ class HTMLExtractor(TextExtractor):
 def preprocess_image(img: Image.Image) -> Image.Image:
     img = ImageEnhance.Contrast(img).enhance(2.0)
     img = img.convert('L')
-    img = img.point(lambda x: 0 if x < 128 else 255, '1')
     img = img.filter(ImageFilter.MedianFilter(size=3))
+    img = img.point(lambda x: 0 if x < 128 else 255, '1')
     return img
 
 
@@ -352,5 +352,7 @@ def get_extractor(file_path: str, use_ocr: bool = False):
     ext = Path(file_path).suffix.lower()
     if ext in _IMAGE_EXTS:
         return ImageExtractor(use_ocr)
+    if ext == '.mp4':
+        return VideoExtractor(use_ocr=use_ocr)
     cls = _EXTRACTORS.get(ext)
     return cls() if cls else None

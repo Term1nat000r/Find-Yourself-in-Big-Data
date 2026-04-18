@@ -2,6 +2,7 @@ import argparse
 import logging
 from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from tqdm import tqdm
 from extractor import get_extractor
 from detectors import detect_pd
 from classifier import determine_protection_level
@@ -49,12 +50,19 @@ def scan_directory(root_dir: str, use_ocr: bool = False, max_workers: int = None
     logger.info(f"Found {len(files)} files to process")
     results = []
 
+    found_pd = 0
     with ProcessPoolExecutor(max_workers=max_workers) as executor:
         future_to_file = {executor.submit(process_file, f, use_ocr): f for f in files}
-        for future in as_completed(future_to_file):
-            result = future.result()
-            if result:
-                results.append(result)
+        with tqdm(total=len(files), desc="Сканирование", unit="файл",
+                  bar_format="{l_bar}{bar}| {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}] ПДн найдено: {postfix}") as pbar:
+            pbar.set_postfix_str(str(found_pd))
+            for future in as_completed(future_to_file):
+                result = future.result()
+                if result:
+                    results.append(result)
+                    found_pd += 1
+                    pbar.set_postfix_str(str(found_pd))
+                pbar.update(1)
     return results
 
 def main():
