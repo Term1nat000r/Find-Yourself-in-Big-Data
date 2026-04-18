@@ -1,3 +1,8 @@
+import av
+import cv2
+import numpy as np
+import pytesseract
+
 import json
 import logging
 import subprocess
@@ -5,7 +10,6 @@ from pathlib import Path
 
 import pandas as pd
 from PIL import Image, ImageEnhance, ImageFilter
-import pytesseract
 from pypdf import PdfReader
 import pdfplumber
 from docx import Document
@@ -160,7 +164,7 @@ class XLSXExtractor(TextExtractor):
             sheets = pd.read_excel(
                 file_path,
                 engine='openpyxl',
-                sheet_name=None,  # все листы
+                sheet_name=None,
                 nrows=EXCEL_MAX_ROWS,
                 dtype=str,
             )
@@ -195,7 +199,6 @@ class HTMLExtractor(TextExtractor):
         try:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                 soup = BeautifulSoup(f, 'html.parser')
-            # убираем скрипты и стили
             for tag in soup(['script', 'style']):
                 tag.decompose()
             return soup.get_text(separator=' ')
@@ -243,9 +246,86 @@ class TXTExtractor(TextExtractor):
 
 
 class VideoExtractor(TextExtractor):
+    MAX_FRAMES = 300
+
+    def __init__(self, use_ocr=True, frame_interval_sec=1.0):
+        self.use_ocr = use_ocr
+        self.frame_interval_sec = frame_interval_sec
+
+    def _detect_document_contour(self, image_np):
+        try:
+            gray = cv2.cvtColor(image_np, cv2.COLOR_BGR2GRAY)
+            blur = cv2.GaussianBlur(gray, (5, 5), 0)
+            edged = cv2.Canny(blur, 75, 200)
+            contours, _ = cv2.findContours(edged, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+            contours = sorted(contours, key=cv2.contourArea, reverse=True)[:5]
+            for c in contours:
+                peri = cv2.arcLength(c, True)
+                approx = cv2.approxPolyDP(c, 0.02 * peri, True)
+                if len(approx) == 4:
+                    warped = self._four_point_transform(image_np, approx.reshape(4, 2))
+                    return warped
+            return None
+        except Exception as e:
+            logger.debug(f"Document detection failed: {e}")
+            return None
+
+    def _four_point_transform(self, image, pts):
+        rect = self._order_points(pts)
+        (tl, tr, br, bl) = rect
+        widthA = np.linalg.norm(br - bl)
+        widthB = np.linalg.norm(tr - tl)
+        maxWidth = max(int(widthA), int(widthB))
+        heightA = np.linalg.norm(tr - br)
+        heightB = np.linalg.norm(tl - bl)
+        maxHeight = max(int(heightA), int(heightB))
+        dst = np.array([
+            [0, 0],
+            [maxWidth - 1, 0],
+            [maxWidth - 1, maxHeight - 1],
+            [0, maxHeight - 1]], dtype="float32")
+        M = cv2.getPerspectiveTransform(rect, dst)
+        warped = cv2.warpPerspective(image, M, (maxWidth, maxHeight))
+        return warped
+
+    def _order_points(self, pts):
+        rect = np.zeros((4, 2), dtype="float32")
+        s = pts.sum(axis=1)
+        rect[0] = pts[np.argmin(s)]
+        rect[2] = pts[np.argmax(s)]
+        diff = np.diff(pts, axis=1)
+        rect[1] = pts[np.argmin(diff)]
+        rect[3] = pts[np.argmax(diff)]
+        return rect
+
     def extract(self, file_path: str) -> str:
-        logger.debug(f"MP4 skipped (no audio transcription): {file_path}")
-        return ""
+        if not self.use_ocr:
+            return ""
+        all_text = []
+        try:
+            container = av.open(file_path)
+            video_stream = container.streams.video[0]
+            fps = float(video_stream.average_rate)
+            frame_interval = max(1, int(fps * self.frame_interval_sec))
+            frame_count = 0
+            processed = 0
+            for frame in container.decode(video_stream):
+                if processed >= self.MAX_FRAMES:
+                    break
+                if frame_count % frame_interval == 0:
+                    img = frame.to_ndarray(format='bgr24')
+                    doc_img = self._detect_document_contour(img)
+                    if doc_img is None:
+                        doc_img = img
+                    pil_img = Image.fromarray(cv2.cvtColor(doc_img, cv2.COLOR_BGR2RGB))
+                    text = pytesseract.image_to_string(pil_img, lang='rus+eng')
+                    if text.strip():
+                        all_text.append(text.strip())
+                    processed += 1
+                frame_count += 1
+        except Exception as e:
+            logger.error(f"Video processing error {file_path}: {e}")
+        return "\n".join(all_text)
 
 
 _EXTRACTORS = {
