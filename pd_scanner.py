@@ -1,9 +1,8 @@
-import os
 import argparse
 import logging
 from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor, as_completed
-from extractors import get_extractor
+from extractor import get_extractor
 from detectors import detect_pd
 from classifier import determine_protection_level
 from reporter import generate_csv_report, generate_json_report, generate_markdown_report
@@ -16,7 +15,7 @@ def setup_logging(verbose: bool):
         handlers=[logging.StreamHandler()]
     )
 
-def process_file(file_path: Path, use_ocr: bool) -> dict or None:
+def process_file(file_path: Path, use_ocr: bool) -> dict | None:
     logger = logging.getLogger(__name__)
     ext = file_path.suffix.lower()
     logger.debug(f"Processing: {file_path}")
