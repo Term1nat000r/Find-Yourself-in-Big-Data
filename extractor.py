@@ -1,4 +1,3 @@
-import os
 import json
 import logging
 import subprocess
@@ -230,6 +229,19 @@ class ImageExtractor(TextExtractor):
             return ""
 
 
+class TXTExtractor(TextExtractor):
+    MAX_SIZE = 5_000_000
+
+    def extract(self, file_path: str) -> str:
+        try:
+            size = Path(file_path).stat().st_size
+            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                return f.read(min(size, self.MAX_SIZE))
+        except Exception as e:
+            logger.error(f"TXT read error {file_path}: {e}")
+            return ""
+
+
 class VideoExtractor(TextExtractor):
     def extract(self, file_path: str) -> str:
         logger.debug(f"MP4 skipped (no audio transcription): {file_path}")
@@ -249,6 +261,8 @@ _EXTRACTORS = {
     '.htm': HTMLExtractor,
     '.html': HTMLExtractor,
     '.mp4': VideoExtractor,
+    '.txt': TXTExtractor,
+    '.md': TXTExtractor,
 }
 
 _IMAGE_EXTS = {'.tif', '.tiff', '.jpeg', '.jpg', '.png', '.gif'}
