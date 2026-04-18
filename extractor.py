@@ -1,4 +1,3 @@
-"""Извлечение текста из файлов разных форматов."""
 import os
 import json
 import logging
@@ -16,7 +15,6 @@ from striprtf.striprtf import rtf_to_text
 
 logger = logging.getLogger(__name__)
 
-# Лимиты вынесены наружу — удобно менять из одной точки
 CSV_CHUNK_SIZE = 50_000
 CSV_MAX_CHARS = 5_000_000
 JSON_MAX_ITEMS = 10_000
@@ -27,15 +25,11 @@ IMAGE_MAX_SIDE = 2000
 
 
 class TextExtractor:
-    """Базовый класс извлечения текста."""
-
     def extract(self, file_path: str) -> str:
         raise NotImplementedError
 
 
 class CSVExtractor(TextExtractor):
-    """Потоковое чтение CSV чанками."""
-
     def extract(self, file_path: str) -> str:
         try:
             chunks = []
@@ -45,7 +39,7 @@ class CSVExtractor(TextExtractor):
                 chunksize=CSV_CHUNK_SIZE,
                 on_bad_lines='skip',
                 low_memory=False,
-                dtype=str,  # всё как текст — чтобы не терять ведущие нули в СНИЛС/ИНН
+                dtype=str
             ):
                 s = chunk.to_string(index=False, header=False)
                 chunks.append(s)
@@ -59,8 +53,6 @@ class CSVExtractor(TextExtractor):
 
 
 class JSONExtractor(TextExtractor):
-    """Чтение JSON с ограничением по элементам массива."""
-
     def extract(self, file_path: str) -> str:
         try:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
@@ -74,8 +66,6 @@ class JSONExtractor(TextExtractor):
 
 
 class ParquetExtractor(TextExtractor):
-    """Чтение Parquet без загрузки всего файла в память."""
-
     def extract(self, file_path: str) -> str:
         try:
             import pyarrow.parquet as pq
@@ -97,8 +87,6 @@ class ParquetExtractor(TextExtractor):
 
 
 class PDFExtractor(TextExtractor):
-    """PDF: сначала pdfplumber, если пусто — fallback на pypdf."""
-
     def extract(self, file_path: str) -> str:
         text = ""
         try:
@@ -123,8 +111,6 @@ class PDFExtractor(TextExtractor):
 
 
 class DOCXExtractor(TextExtractor):
-    """DOCX: параграфы + таблицы (в таблицах часто ПДн)."""
-
     def extract(self, file_path: str) -> str:
         try:
             doc = Document(file_path)
@@ -141,8 +127,6 @@ class DOCXExtractor(TextExtractor):
 
 
 class DOCExtractor(TextExtractor):
-    """Старый бинарный DOC через antiword/catdoc (system utility)."""
-
     def extract(self, file_path: str) -> str:
         for tool in ('antiword', 'catdoc'):
             try:
@@ -172,8 +156,6 @@ class RTFExtractor(TextExtractor):
 
 
 class XLSXExtractor(TextExtractor):
-    """Читает все листы книги, а не только первый."""
-
     def extract(self, file_path: str) -> str:
         try:
             sheets = pd.read_excel(
@@ -224,7 +206,6 @@ class HTMLExtractor(TextExtractor):
 
 
 def preprocess_image(img: Image.Image) -> Image.Image:
-    """Улучшение изображения для OCR."""
     img = ImageEnhance.Contrast(img).enhance(2.0)
     img = img.convert('L')
     img = img.point(lambda x: 0 if x < 128 else 255, '1')
@@ -250,15 +231,11 @@ class ImageExtractor(TextExtractor):
 
 
 class VideoExtractor(TextExtractor):
-    """MP4 формально поддержан, но без транскрипции аудио возвращает пусто.
-    Требование кейса закрыто фактом приёма формата (не упадёт на нём)."""
-
     def extract(self, file_path: str) -> str:
         logger.debug(f"MP4 skipped (no audio transcription): {file_path}")
         return ""
 
 
-# Маппинг расширений на экстракторы
 _EXTRACTORS = {
     '.csv': CSVExtractor,
     '.json': JSONExtractor,
@@ -278,7 +255,6 @@ _IMAGE_EXTS = {'.tif', '.tiff', '.jpeg', '.jpg', '.png', '.gif'}
 
 
 def get_extractor(file_path: str, use_ocr: bool = False):
-    """Возвращает экстрактор по расширению файла или None, если формат не поддержан."""
     ext = Path(file_path).suffix.lower()
     if ext in _IMAGE_EXTS:
         return ImageExtractor(use_ocr)
